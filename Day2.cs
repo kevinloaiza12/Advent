@@ -84,11 +84,7 @@ namespace Console.Challenges.Advent
                     }
 
                 }
-                var blueN = blue.Max();
-                var redN = red.Max();
-                var greenN = green.Max();
-
-                count = blueN * redN * greenN + count;
+                count = blue.Max() * red.Max() * green.Max() + count;
             }
             return count;
         }
